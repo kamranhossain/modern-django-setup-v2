@@ -1,0 +1,16 @@
+{
+  "python.pythonPath": "venv/bin/python3",
+  "python.linting.flake8Enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.enabled": true,
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "python.linting.flake8Args": [
+    "--max-line-length=88",
+    "--ignore=F405,F403,W503"
+  ],
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  }
+}
